@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profile"
+            android:checked="false"
+            android:icon="@drawable/profile_icon"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/edit_profile"
+            android:checked="false"
+            android:icon="@drawable/description_icon"
+            android:title="@string/edit_profile" />
+
+        <item
+            android:id="@+id/see_ride"
+            android:checked="false"
+            android:icon="@drawable/pick_icon"
+            android:title="@string/see_ride" />
+
+        <item
+            android:id="@+id/share_ride"
+            android:checked="false"
+            android:icon="@drawable/car_icon"
+            android:title="@string/share_ride" />
+
+
+    </group>
+</menu>
